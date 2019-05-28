@@ -1,0 +1,24 @@
+{
+  "name": "@cristianbgp/random-emoji",
+  "version": "1.0.0",
+  "description": "It just returns an emoji",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": "git@github.com:cristianbgp/random-emoji.git",
+  "keywords": [
+    "random",
+    "emoji"
+  ],
+  "author": "cristianbgp <cristian.granda.pastor@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "microbundle": "^0.11.0"
+  }
+}
